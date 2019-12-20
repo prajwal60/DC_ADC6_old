@@ -1,0 +1,27 @@
+Git Clone
+A clone is a replication or act of creating the copy of a file that exists on your machine instead of somewhere on a website's server.
+You can edit the files in your favorite editor with your clone and use Git to monitor your changes without having to be online.
+It is linked to the remote version, however, so that changes between the two can be synchronized. 
+
+Git Push
+Pushing refers to submitting the committed changes to a remote server, like a GitHub-hosted repository.
+When you change something locally, for example, you would like to promote those changes so that others can access them.
+
+Git Pull
+Pull applies to when you pick up and combine changes. For example, if someone edited the remote file you're both working on,
+you're going to want to pull those changes into your local copy so it's up to date.
+
+Merge conflict 
+Merging takes changes from one branch (in the same repository or a fork) and transfers them to another branch.
+This often happens as a pull request (which can be known as a merge request) or through the command line.
+If there are no conflicting changes, a merge can be done automatically via a pull request via the GitHub web interface, or can always be done via the command line. 
+
+Git Branches
+A branch is a repository parallel version. It is in the repository but does not affect the primary or master branch, 
+enabling you to work freely without interrupting the live version. When you've made the changes you want to make, 
+you can merge your branch back into the master branch to publish your changes.
+
+Git commit
+A commit, or "revision", is an individual change to a file (or set of files). 
+It's like when you save a file, except with Git, every time you save it creates a unique ID (a.k.a. the "SHA" or "hash") 
+that allows you to keep record of what changes were made when and by who. Commits usually contain a commit message which is a brief description of what changes were made.
